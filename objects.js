@@ -1,11 +1,11 @@
 var playlist = {eminem: 'real slim'};
 
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist['name'] = title;
+  playlist['artistName'] = songTitle;
   return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist['name']
+  delete playlist['artistName']
   return playlist;
 }
