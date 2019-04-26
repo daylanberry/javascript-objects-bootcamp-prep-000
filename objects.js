@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = {eminem: 'real slim'};
 
 function updatePlaylist(playlist, name, title){
   playlist['name'] = title;
