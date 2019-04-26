@@ -1,6 +1,6 @@
 var playlist = {eminem: 'real slim'};
 
-function updatePlaylist(playlist, name, title){
+function updatePlaylist(playlistObj, name, title){
   playlist['name'] = title;
   return playlist
 }
