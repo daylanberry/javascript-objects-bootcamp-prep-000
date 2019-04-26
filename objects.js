@@ -1,11 +1,11 @@
 var playlist = {eminem: 'real slim'};
 
 function updatePlaylist(playlistObj, name, title){
-  playlist['name'] = title;
-  return playlist
+  playlistObj['name'] = title;
+  return playlistObj
 }
 
-function removeFromPlaylist(playlist, name){
-  delete playlist['name']
-  return playlist;
+function removeFromPlaylist(playlistObj, name){
+  delete playlistObj['name']
+  return playlistObj;
 }
